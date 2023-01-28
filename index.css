@@ -1,0 +1,56 @@
+
+
+
+    /*Contenedor principal*/
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /*Estilo para las secciones*/
+    .item {
+      flex: 1;
+      margin: 10px;
+    }
+
+    /*Estilo para los títulos*/
+    h1, h2, h3 {
+      text-align: center;
+    }
+
+    /*Estilo para la sección de información personal*/
+    .personal-info {
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    /*Estilo para la sección de educación*/
+    .education {
+      background-color: #e6e6e6;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    /*Estilo para la sección de experiencia laboral*/
+    .work-experience {
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    /*Estilo para la sección de habilidades*/
+    .skills {
+      background-color: #e6e6e6;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    /*Estilo para la foto de perfil*/
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+      border-radius: 20%;
+      margin: 10px auto;
+      display: block;
+    }
